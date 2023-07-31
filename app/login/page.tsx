@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import { useState } from "react";
-import footerLinks from "@/data/login/FooterLinks";
+import Footer from "@/components/Footer";
 
 const page = () => {
   
@@ -93,19 +93,7 @@ const page = () => {
         </div>
       </div>
       {/* footer */}
-      <div className="align-bottom text-center mb-8 text-gray-500 text-xs px-2">
-        <div>
-          {footerLinks.map((link, key) => (
-            <Link className="cursor-pointer mx-2" href={link.url} target="_blank">
-              {link.title}
-            </Link>
-          ))}
-        </div>
-        <div className="flex justify-center gap-4">
-          <div>Türkçe</div>
-          <div>© 2023 Recep Öksüz Tarafından</div>
-        </div>
-      </div>
+      <Footer/>
     </div>
   );
 };

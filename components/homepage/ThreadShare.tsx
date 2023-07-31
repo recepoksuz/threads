@@ -39,7 +39,7 @@ const ThreadShare = () => {
   };
 
   return (
-    <div className="p-4 border">
+    <div className="p-4 ">
       <div className="flex">
         <div className="pt-3 mr-4">
           {/* Link: clicked profil photo -> go profil, link yerine de rotur */}
@@ -51,7 +51,7 @@ const ThreadShare = () => {
             height={38}
           />
         </div>
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full ">
           <div className="text-lg">
             <span>
               <textarea
@@ -103,7 +103,7 @@ const ThreadShare = () => {
             </div>
             <div className="flex gap-4">
               <div className="text-gray-300">Herkes yanıtlayabilir</div>
-              <div className="text-blue-500 font-bold cursor-pointer">
+              <div className="text-[#2BA6F6] font-bold cursor-pointer">
                 Paylaş
               </div>
             </div>

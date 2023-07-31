@@ -6,10 +6,7 @@ const Flow = () => {
   return (
     <div>
       <div className={`flex flex-col  md:min-w-[600px]`}>
-        <div className="sticky">
-          <TopBar />
-        </div>
-        <ThreadShare />
+          <ThreadShare />
       </div>
     </div>
   );
